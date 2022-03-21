@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/five"
+            android:icon="@drawable/jifen1"
+            android:title="Five Credit"/>
+        <item
+            android:id="@+id/ten"
+            android:icon="@drawable/jifen2"
+            android:title="Ten Credit"/>
+        <item
+            android:id="@+id/fifteen"
+            android:icon="@drawable/jifen3"
+            android:title="Fifteen Credit"/>
+        <item
+            android:id="@+id/twenty"
+            android:icon="@drawable/jifen4"
+            android:title="Twenty Credit"/>
+    </group>
+</menu>

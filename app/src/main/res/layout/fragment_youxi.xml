@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:menuview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+    <com.example.laladui.youximenu.MenuView
+        android:id="@+id/menu_view"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        menuview:arrowChoseColor="@android:color/white"
+        menuview:arrowColor="#5DB3AF"
+        menuview:choseColor="#585555"
+        menuview:lineColor="@android:color/black"
+        menuview:mtext="OK"
+        menuview:mtextSize="35sp"
+
+        />
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        >
+        <Button
+            android:id="@+id/lianxi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="50dp"
+            android:text="练习"
+            android:textSize="18dp"
+            android:background="@drawable/top_button_shap"
+            android:drawableLeft="@drawable/danren"
+            android:drawablePadding="-10dp"
+            style="@style/roundbutton"
+
+            />
+        <Button
+            android:id="@+id/duihuan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="兑奖"
+            android:textSize="18dp"
+            android:background="@drawable/top_button_shap"
+            android:drawableLeft="@drawable/jiangpin"
+            android:drawablePadding="-10dp"
+            style="@style/roundbutton"
+            />
+        <Button
+            android:id="@+id/jingsai"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="50dp"
+            android:text="竞赛"
+            android:textSize="18dp"
+            android:background="@drawable/top_button_shap"
+            android:drawableLeft="@drawable/duoren"
+            android:drawablePadding="-10dp"
+            style="@style/roundbutton"
+            />
+
+
+    </LinearLayout>
+</RelativeLayout>

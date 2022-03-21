@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="menuview">
+        <!--线条颜色-->
+        <attr name="lineColor" format="color"/>
+        <!--箭头颜色-->
+        <attr name="arrowColor" format="color"/>
+        <!--选择反色-->
+        <attr name="choseColor" format="color"/>
+        <!--选择箭头反色-->
+        <attr name="arrowChoseColor" format="color"/>
+        <!--中间OK或者菜单字体大小-->
+        <attr name="mtextSize" format="dimension"/>
+        <!--中间文字内容-->
+        <attr name="mtext" format="string"/>
+    </declare-styleable>
+</resources>
